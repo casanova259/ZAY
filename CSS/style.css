@@ -1,0 +1,64 @@
+@import url(variable.css);
+
+body,
+html{
+    height: 100%;
+    width: 100%;
+}
+
+/*Nav Section*/
+.nav-temp{
+    background-color: var(--secondary-dark);
+    min-height: 5vh;
+    display: flex;
+    padding: 0vh 9vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-temp a{
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: small;
+    margin-right: 5px;
+}
+
+.navbar
+{
+    background-color: var(--background-color);
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    padding: 5vw 6vw;
+    position: relative;
+}
+
+.navbar .logo{
+    margin-right: 5vw;
+}
+
+.navbar .logo h1{
+    color: var(--primary-color);
+    font-size: 2.5rem;    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.navbar .items
+{
+   width: 90vw;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+ .menu-items
+{
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+}
